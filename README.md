@@ -3,12 +3,13 @@
     TYPESCRIPT = JAVASCRIPT + enhancement
 
 
-    TypeScript makes our code easier to read, write and maintain
+    TypeScript makes our code easier to read, write, and maintain
 
     TypeScript catches errors at compile time instead of runtime, which makes debugging easier and reduces the likelihood of bugs in production 
 
-    A browser wont support TypeScript, we have to transcribe the code into js in order for the browser to understand.
-    ![alt text](image.png)
+    A browser won't support TypeScript, we have to transcribe the code into js for the browser to understand.
+    ![image](https://github.com/Amruth56/TypeScript/assets/78676871/217f2136-1454-44de-86fb-350d183645af)
+
 
     
 # used in : 
