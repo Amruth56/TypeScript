@@ -1,5 +1,7 @@
 ## TypeScript
     Its a superset of JavaScript that adds static typing and other features to enhance JavaScript development.
+
+    *TYPESCRIPT = JAVASCRIPT + enhancement*
 # used in : 
  1) Angular a modern framework is built entirely in TypeScript.
  2) Vue is written in TypeScript.
