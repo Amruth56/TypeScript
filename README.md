@@ -2,6 +2,12 @@
     Its a superset of JavaScript that adds static typing and other features to enhance JavaScript development.
 
     TYPESCRIPT = JAVASCRIPT + enhancement
+
+    TypeScript makes our code easier to read, write and maintain
+
+    TypeScript catches errors at compile time instead of runtime, which makes debugging easier and reduces the likelihood of bugs in production 
+
+    A browser wont support TypeScript, we have to transcribe the code into js in order for the browser to understand.
 # used in : 
  1) Angular a modern framework is built entirely in TypeScript.
  2) Vue is written in TypeScript.
