@@ -1,7 +1,12 @@
 // @ts-ignore
 
-function sum(a:number, b:string):string {
+function sum(a:number, b:number):number {
     return a+b;
 }
 
-console.log(sum(5,"ldjlb"))
+let nanValue: number = NaN
+console.log(nanValue)
+
+console.log(sum(5,8))
+
+let isDone: boolean = false

@@ -1,4 +1,8 @@
+"use strict";
+// @ts-ignore
 function sum(a, b) {
     return a + b;
 }
-console.log(sum(5, "ldjlb"));
+let nanValue = NaN;
+console.log(nanValue);
+console.log(sum(5, 8));
