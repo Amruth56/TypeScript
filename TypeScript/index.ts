@@ -1,6 +1,7 @@
- console.log("TypeScript tutorial")
+// @ts-ignore
 
- let num:number = 5;
-//  num = "qwerty"
+function sum(a:number, b:string):string {
+    return a+b;
+}
 
- console.log(num)
+console.log(sum(5,"ldjlb"))

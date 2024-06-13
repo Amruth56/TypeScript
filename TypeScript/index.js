@@ -1,4 +1,4 @@
-console.log("TypeScript tutorial");
-var num = 5;
- num = "qwerty"
-console.log(num);
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(5, "ldjlb"));
