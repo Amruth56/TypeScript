@@ -10,3 +10,9 @@ console.log(nanValue)
 console.log(sum(5,8))
 
 let isDone: boolean = false
+
+function isEven (n:number): boolean {
+    if(n%2 == 0)return true;
+    else return false;
+}
+console.log(isEven(8));
