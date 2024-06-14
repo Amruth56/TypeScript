@@ -11,3 +11,6 @@ console.log(numberToString);
 //to filter even numbers 
 const evenNumbers = arr.filter((target) => target % 2 == 0);
 console.log(evenNumbers);
+// to filter number greater than 4
+const greater = arr.filter((target) => target > 4);
+console.log(greater);
