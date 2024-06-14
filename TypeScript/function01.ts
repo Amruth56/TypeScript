@@ -4,3 +4,10 @@ function greet(name:string, city:string, id:any){
 }
 
 greet("qwe", "sdsd", 56);
+
+
+//response function for
+const response = (name:string )=> {
+    console.log(`hello ${name} thank you having me here`)
+}
+response("ddfd")
