@@ -7,3 +7,7 @@ console.log(doubleData);
 //converting number to string 
 const numberToString = arr.map((currEle) => currEle.toString());
 console.log(numberToString);
+//! FILTER METHOD 
+//to filter even numbers 
+const evenNumbers = arr.filter((target) => target % 2 == 0);
+console.log(evenNumbers);
