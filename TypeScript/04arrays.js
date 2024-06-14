@@ -5,3 +5,8 @@ const arr3 = Array.of("qwe", "rty", "mno", "xyz");
 console.log(array);
 console.log(arr2);
 console.log(arr3);
+let fruits = ["apple", "banana", "orange", "mango"];
+let newFruits = fruits.push("kiwi");
+console.log(fruits);
+console.log(newFruits);
+fruits.forEach((name) => console.log(name));
