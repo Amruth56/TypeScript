@@ -17,3 +17,12 @@ const sum2 = (a: number, b: number): string => {
 };
 
 console.log(sum2(2, 3));
+
+
+//to check a palindrome 
+const isPalindrome = (palin:string) :boolean => {
+    let myPalin = palin.split("").reverse().join("");
+    return myPalin === palin
+}
+
+console.log(isPalindrome("123321"))
