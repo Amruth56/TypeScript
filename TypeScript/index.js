@@ -36,6 +36,6 @@ async function fetchData() {
 async function processData() {
     const response = await fetchData();
     if (typeof response === 'object') {
-        console.log(123456789); 
+        console.log(123456789);
     }
 }
