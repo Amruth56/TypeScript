@@ -45,3 +45,12 @@ console.log(person1.address.state);
 //updating object properties
 person1.address.state = "usa";
 console.log(person1.address.state);
+const product = {
+    name: "mat",
+    price: 2322,
+    quantity: 3
+};
+const totalPrice = (product) => {
+    return `${product.name} total cost ${product.price * product.quantity}`;
+};
+console.log(totalPrice(product));

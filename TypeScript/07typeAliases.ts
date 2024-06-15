@@ -60,4 +60,21 @@ const person4:Person = {
   //updating object properties
   person1.address.state = "usa";
   console.log(person1.address.state);
-  
+
+
+  type qwe = {
+    name: string;
+    price: number;
+    quantity: number;
+
+  }
+  const product:qwe = {
+    name : "mat",
+    price: 2322,
+    quantity: 3
+}
+
+const totalPrice = (product: qwe) => {
+    return `${product.name} total cost ${product.price * product.quantity}`;
+}  
+console.log(totalPrice(product));
