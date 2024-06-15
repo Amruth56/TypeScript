@@ -1,12 +1,21 @@
 "use strict";
-// declaration or definition of a function, which includes the function's name, parameters and return type. It defines the structure and type information of a function without including the function's implementation or body.
 const student1 = {
     name: "John",
     age: 20,
+    // Use 'this' to access the properties of the object within the method
+    greet: function (country) {
+        return `Welcome! My name is ${this.name}, I am ${this.age} years old, and I am from ${country}.`;
+    }
 };
-let myFAvNum = "5";
-const intro = (student1) => {
-    const { name, age } = student1;
-    return `welcome my name is ${name}, I ma ${age} yrs old`;
+// Follow camelCase naming convention for variables
+let myFavNum = "5";
+// The intro function can be simplified as it's similar to the greet method
+const intro = (student) => {
+    // Destructure the properties directly in the parameter list
+    const { name, age } = student;
+    // Fix the template literal and the typo in the string
+    return `Welcome! My name is ${name}, and I am ${age} years old.`;
 };
+// Example usage:
 console.log(intro(student1));
+console.log(student1.greet('India'));
