@@ -1,1 +1,1 @@
-o
+console.log(intro)
