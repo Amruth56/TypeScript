@@ -32,6 +32,6 @@ function format(v) {
         throw new Error("Invalid value");
     }
 }
-console.log(format(1234672));
+console.log(format(123.42));
 console.log(format("hello"));
 console.log(format(true));
