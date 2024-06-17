@@ -8,5 +8,7 @@ const displayPersonInfo = (person) => {
 //example usage
 const p1 = ["qwdqw", 34, true];
 const p2 = ["bvf", 4, false];
+p1.push("coding");
+console.log(p1);
 displayPersonInfo(p1);
 displayPersonInfo(p2);
