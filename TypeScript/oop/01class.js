@@ -7,9 +7,6 @@ class Persons {
 const p = new Persons();
 console.log(p);
 console.log(p.age);
-
-
-
 class Std {
     name;
     age;

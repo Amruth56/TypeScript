@@ -1,17 +1,17 @@
-class Persons {
+class Per {
     name: string = "John"
     age: number = 30
     hobbies: string[] = ['reading', 'anime', 'painting']
 }
 
-const p : Persons = new Persons();
-console.log(p)
-console.log(p.age)
+const pe : Persons = new Persons();
+console.log(pe)
+console.log(pe.age)
 
 
 
 
-class Std{
+class Stu{
     name:string;
     age:number;
     hobbies:string[];
@@ -23,9 +23,9 @@ class Std{
     }  
 }
 
-const std1: Std = new Std("vinod", 21, ['reading', 'writing']);
-const std2: Std = new Std("Akash", 27, ['coding', 'gym'])
+const stu1: Stu = new Stu("vinod", 21, ['reading', 'writing']);
+const stu2: Stu = new Stu("Akash", 27, ['coding', 'gym'])
 
-console.log(std1.name, std2.name)
-console.log(std1)
-console.log(std2)
+console.log(stu1.name, stu2.name)
+console.log(stu1)
+console.log(stu2)
