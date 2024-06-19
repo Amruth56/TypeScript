@@ -1,12 +1,12 @@
 "use strict";
 class Perso {
-    _age = 0;
+    _age;
     _firstName;
     _lastName;
     constructor(firstName, lastName, age) {
         this._firstName = firstName;
         this._lastName = lastName;
-        this.age = age; // This will call the setter and assign _age
+        this._age = age; // This will call the setter and assign _age
     }
     get age() {
         return this._age;
@@ -25,3 +25,22 @@ class Perso {
 let perso = new Perso('John', 'Doe', 10);
 console.log(perso.age); // Outputs: 10
 console.log(perso.getFullName()); // Outputs: John Doe
+//practice 
+class bankAccount {
+    _balance = 0;
+    constructor(balance) {
+        this._balance = balance;
+    }
+    get balance() {
+        return this._balance;
+    }
+    set balance(amount) {
+        if (amount < 0) {
+            throw new Error('The amount is invalid');
+        }
+        this._balance = amount;
+    }
+}
+const account = new bankAccount(0);
+account.balance = 10;
+console.log(account.balance);
