@@ -44,3 +44,25 @@ class bankAccount {
 const account = new bankAccount(0);
 account.balance = 10;
 console.log(account.balance);
+//practice question 2
+class Temperature {
+    _celsius = 0;
+    constructor(celsius) {
+        this._celsius = celsius;
+    }
+    get celsius() {
+        return this._celsius;
+    }
+    set celsius(newCelsius) {
+        this._celsius = newCelsius;
+    }
+    get fahrenheit() {
+        return this._celsius * 9 / 5 + 32;
+    }
+    set fahrenheit(newFahrenheit) {
+        this._celsius = (newFahrenheit - 32) * 5 / 9;
+    }
+}
+const temperature = new Temperature(0);
+temperature.celsius = 56;
+console.log(temperature.fahrenheit);
